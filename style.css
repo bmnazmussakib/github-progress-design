@@ -1,0 +1,52 @@
+.BorderGrid--spacious {
+  margin-top: -24px;
+  margin-bottom: -24px;
+}
+.BorderGrid--spacious .BorderGrid-cell {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: table-cell;
+  border: 1px solid #dedede;
+}
+
+.BorderGrid {
+  display: table;
+  width: 100%;
+  margin-top: -16px;
+  margin-bottom: -16px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.Layout {
+  --layout-sidebar-width: 296px;
+}
+
+.BorderGrid-row {
+  display: table-row;
+}
+
+.Progress {
+  border-radius: 6px;
+  display: flex;
+  height: 50px;
+  outline: 1px solid rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.Progress-item {
+  border-right: 2px solid #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.Progress-item:last-child {
+  border-right: none;
+}
+.Progress-item .Progress-item-child {
+  z-index: 999;
+  border-right: 2px solid #fff;
+}
+.Progress-item .Progress-item-child:last-child {
+  border-right: none;
+}/*# sourceMappingURL=style.css.map */
